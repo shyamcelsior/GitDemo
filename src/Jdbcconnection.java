@@ -18,6 +18,7 @@ public class Jdbcconnection {
 		String port="3306";
 		// change by ram in GITStuffX
 		//add comments in secondbranch by user.
+		//add comments in secondbranch by 2nd user in gitstuffx.
 		
 		Connection con=DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/qadbtesting", "root", "root");
 		
